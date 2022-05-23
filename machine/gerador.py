@@ -23,3 +23,4 @@ def senha(numero=False, letra=False, especial=False, tamanho=1):
         case False | True | True:
             senha_resultado = alpha + special
             return sample(senha_resultado, tamanho)
+ 
